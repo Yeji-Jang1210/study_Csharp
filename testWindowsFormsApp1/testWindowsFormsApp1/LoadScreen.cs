@@ -19,12 +19,12 @@ namespace testWindowsFormsApp1
             
         }
 
-        async void splashRun() 
-        {
-            await Task.Delay(2500);
-            Main1 mainClass = new Main1();
-            this.Close();
-        }
+        //async void splashRun() 
+        //{
+        //    await Task.Delay(2500);
+        //    Main1 mainClass = new Main1();
+        //    this.Close();
+        //}
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
